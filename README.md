@@ -4,7 +4,7 @@ title: 主页
 nav_order: 0
 ---
 
-# Akikoori's Doujin Game Reviews
+# [Akikoori's Doujin Game Reviews](https://akikoori.github.io/ADGR/)
 
 同人游戏评测合集
 
