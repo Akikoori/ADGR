@@ -1,1 +1,21 @@
+title: ADGR
+description: >-
+  Akikoori's Doujin Game Reviews
+  
+  同人游戏评测合集
+
 remote_theme: pmarsceill/just-the-docs
+
+defaults:
+    -
+        scope:
+            path: "Reviews"
+        values:
+            layout: "page"
+            permalink: /:basename
+
+cdn:
+    jsdelivr:
+        enabled: true
+        defaultprefix: "https://raw.githubusercontent.com/Akikoori/ADGR/main/Pictures"
+        cdnprefix: "https://cdn.jsdelivr.net/gh/Akikoori/ADGR/Pictures"

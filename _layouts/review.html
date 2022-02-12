@@ -1,0 +1,11 @@
+---
+layout: default
+---
+<h1><b> {{ page.title }} </b></h1>
+<hr>
+
+{% if site.cdn.jsdelivr.enabled %}
+{{ content | replace: site.cdn.jsdelivr.defaultprefix, site.cdn.jsdelivr.cdnprefix }}
+{% else %}
+{{ content }}
+{% endif %}
